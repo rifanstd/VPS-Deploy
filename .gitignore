@@ -1,0 +1,12 @@
+# Installed packages
+node_modules
+
+# result of build
+/dist
+
+# Env
+.env.production
+.env.development
+
+# Key
+key
