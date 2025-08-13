@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
-    "start": "corss-env NODE_ENV=production nodemon dist/index.js"
+    "start": "cross-env NODE_ENV=production nodemon dist/index.js"
   },
   "keywords": [],
   "author": "",
