@@ -10,7 +10,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get("/", (req, res) => res.send("LU NGERTI APA SIH YO"));
+app.get("/", (req, res) =>
+  res.status(200).json({ message: "Berhasil access !!!" })
+);
 
 app.listen(ENV.APP_PORT, () => {
   console.log(`Server running on port ${ENV.APP_PORT}`);
